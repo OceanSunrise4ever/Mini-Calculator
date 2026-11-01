@@ -6,7 +6,7 @@ input()
 action = input("Do you want to perform arithmetic operations or graphing? (Enter 'arithmetic' or 'graphing'): ")
 
 if action.lower() == "arithmetic":
-    print("You have chosen arithmetic operations. Let's proceed.")
+    print("You have chosen arithmetic operations. Let's proceed!")
     
     operation = input("Enter the operation you want to perform: +,-,/,*,**,//,%, and &: ")
 
