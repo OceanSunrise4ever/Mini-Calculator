@@ -1,4 +1,4 @@
-Welcome to the Desmos Replica! 
+**Welcome to the Desmos Replica!**
 
 This is a mini calculator I built using python.
 
@@ -6,49 +6,49 @@ It allows users to perform basic arithmetic operations or analyze the key featur
 
 The project uses the sympy library to handle complex calculus and algebra symbols automatically.
 
-Key Features
+
+## What it does
 
 1. Arithmetic Mode
 
-Perform quick math calculations using these operators:
+  Performs quick math calculations using these operators:
 
-+ Addition
-- Subtraction
-* Multiplication
-/ Division (with built-in crash protection for dividing by zero!)
-** Exponents (Power)
-// Floor Division
-% Modulo (Remainder)
-& Bitwise AND
+    - + Addition
+    - - Subtraction
+    - * Multiplication
+    - / Division (with built-in crash protection for dividing by zero!)
+    - ** Exponents (Power)
+    - // Floor Division
+    - % Modulo (Remainder)
+    - & Bitwise AND
 
 2. Graphing & Function Analysis Mode
 
-Input a rational function in standard math notation (like f(x) = (2*x**2 + 3*x - 5) / (x - 1)) to instantly discover:
+  Input a rational function in standard math notation (like f(x) = (2*x**2 + 3*x - 5) / (x - 1)) to instantly discover:
 
-Zeros: Where the numerator equals zero.
+    - Zeros: Where the numerator equals zero.
+    
+    - Vertical Asymptotes: Where the denominator equals zero.
+    
+    - Horizontal Asymptotes: Calculated by comparing the highest exponents on the top and bottom.
+    
+    - Y-Intercept: The value of the function when \(x = 0\).
+    
+    - Holes: Points where the graph breaks.
 
-Vertical Asymptotes: Where the denominator equals zero.
 
-Horizontal Asymptotes: Calculated by comparing the highest exponents on the top and bottom.
+## How it works
 
-Y-Intercept: The value of the function when \(x = 0\).
+When the user first enters an equation, the code asks you what mode you would like to use and what you want to find. From there, you can keep asking follow-up questions.
 
-Holes: Points where the graph breaks.
+## Built with
 
-How to Run the Program
+- **Sympy** - symbolic mathematics (used so that it can perform algebra and equation solving)
 
-Make sure you have Python 3 installed on your computer. You will also need the sympy math library.
+## What I learned
 
-You can install it by opening your terminal or command prompt and typing:bashpip install sympy
+The most challenging part of building this project was understanding how sympy works. I'm used to coding without using libraries so using libraries was a new experience for me.
 
-Running the CodeDownload or copy the script into a file named main.py.
 
-Open your terminal in the same folder and run:bashpython main.py
-
-Press Enter to start!
-
-Tech Stack
-
-Language: Python 3
 
 Libraries: sympy
