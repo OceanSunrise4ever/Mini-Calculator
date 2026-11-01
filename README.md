@@ -1,16 +1,14 @@
-🌌 Desmos Replica 
-
 Welcome to the Desmos Replica! 
 
-This is a Python command-line tool built for StarDance. 
+This is a mini calculator I built using python.
 
 It allows users to perform basic arithmetic operations or analyze the key features of rational functions using advanced algebra rules.
 
 The project uses the sympy library to handle complex calculus and algebra symbols automatically.
 
-✨ Key Features
+Key Features
 
-🧮 1. Arithmetic Mode
+1. Arithmetic Mode
 
 Perform quick math calculations using these operators:
 
@@ -23,7 +21,7 @@ Perform quick math calculations using these operators:
 % Modulo (Remainder)
 & Bitwise AND
 
-📈 2. Graphing & Function Analysis Mode
+2. Graphing & Function Analysis Mode
 
 Input a rational function in standard math notation (like f(x) = (2*x**2 + 3*x - 5) / (x - 1)) to instantly discover:
 
@@ -37,17 +35,20 @@ Y-Intercept: The value of the function when \(x = 0\).
 
 Holes: Points where the graph breaks.
 
-🚀 How to Run the Program
+How to Run the Program
 
-Prerequisites
+Make sure you have Python 3 installed on your computer. You will also need the sympy math library.
 
-Make sure you have Python 3 installed on your computer. You will also need the sympy math library.You can install it by opening your terminal or command prompt and typing:bashpip install sympy
+You can install it by opening your terminal or command prompt and typing:bashpip install sympy
 
-Running the CodeDownload or copy the script into a file named main.py.Open your terminal in the same folder and run:bashpython main.py
+Running the CodeDownload or copy the script into a file named main.py.
+
+Open your terminal in the same folder and run:bashpython main.py
+
 Press Enter to start!
 
-🛠️ Tech Stack
+Tech Stack
 
 Language: Python 3
 
-Libraries: sympy (Symbolic Mathematics)
+Libraries: sympy
